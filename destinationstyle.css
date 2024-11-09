@@ -6,6 +6,7 @@ main {
     background-color: #6f42c1; /* Bootstrap's purple color */
     height: 150px; /* Adjust height as needed */
     color: white;
+    background-image:url(assets/thiss.jpg);
 }
 
 /* Navbar customization */
