@@ -3,6 +3,7 @@
     background-color: #6f42c1; /* Bootstrap's purple color */
     height: 200px;
     color: white;
+    background-image:url(assets/p1.png);
 }
 
 /* Navbar customization */
