@@ -1,21 +1,21 @@
 main {
-    margin-top: 20px; /* Adjust this value to be slightly more than the header height */
+    margin-top: 20px; 
 }
-/* Custom purple background header */
+
 .header {
-    background-color: #6f42c1; /* Bootstrap's purple color */
-    height: 150px; /* Adjust height as needed */
+    background-color: #6f42c1; 
+    height: 150px; 
     color: white;
     background-image:url(assets/thiss.jpg);
 }
 
-/* Navbar customization */
+
 .navbar-custom {
     background-color: transparent;
     padding: 0;
 }
 
-/* Center and evenly space headings */
+
 .navbar-nav {
     width: 100%;
 }
@@ -25,7 +25,7 @@ main {
     text-align: center;
 }
 
-/* Hover effect on nav links */
+
 .nav-link {
     padding: 10px 15px;
     border-radius: 5px;
@@ -33,7 +33,7 @@ main {
 }
 
 .nav-link:hover {
-    background-color: #5a3598; /* Darker shade of purple on hover */
+    background-color: #5a3598; 
     color: white;
 }
 
@@ -62,4 +62,25 @@ main {
     font-size: 1.2em;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.navbar .nav-item img {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards; 
 }
